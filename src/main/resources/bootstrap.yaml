@@ -1,11 +1,11 @@
 server:
-  port: ${betapp-naming-server.port:8761}
+  port: ${betapp-naming-server.port}
 spring:
   application:
     name: betapp-naming-server
   cloud:
     config:
-      uri: ${betapp-naming-server.config.hostname}:${betapp-naming-server.config.port}
+      uri: https://betapp-config-server.com
   profiles:
     active: production
 eureka:
