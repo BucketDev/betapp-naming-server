@@ -8,10 +8,10 @@
 		<version>2.1.8.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bucketdev</groupId>
-	<artifactId>betapp-naming-server</artifactId>
+	<groupId>com.bucketdev.betapp</groupId>
+	<artifactId>naming-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>betapp-naming-server</name>
+	<name>naming-server</name>
 	<description>Eureka naming server to register betapp microservices</description>
 
 	<properties>

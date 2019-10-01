@@ -1,4 +1,4 @@
-package com.bucketdev.betappnamingserver;
+package com.bucketdev.betapp.namingserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
