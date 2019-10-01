@@ -5,7 +5,7 @@ spring:
     name: betapp-naming-server
   cloud:
     config:
-      uri: https://betapp-config-server.com
+      uri: https://betapp-config-server.herokuapp.com
   profiles:
     active: production
 eureka:
