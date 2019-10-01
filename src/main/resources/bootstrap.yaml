@@ -5,9 +5,9 @@ spring:
     name: betapp-naming-server
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: ${betapp-naming-server.config.hostname}:${betapp-naming-server.config.port}
   profiles:
-    active: default
+    active: production
 eureka:
   client:
     register-with-eureka: false
