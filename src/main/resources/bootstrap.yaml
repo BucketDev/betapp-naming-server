@@ -1,5 +1,7 @@
 server:
   port: ${betapp-naming-server.port:8761}
+  servlet:
+    context-path: /eureka
 spring:
   application:
     name: betapp-naming-server
