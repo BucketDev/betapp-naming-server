@@ -15,4 +15,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     serviceUrl:
-      defaultZone: https://betapp-naming-server.herokuapp.com/eureka/
+      defaultZone: ${betapp-naming-server.eureka.hostname}:${betapp-naming-server.eureka.port}/eureka/
